@@ -6,6 +6,7 @@ outputs: {}
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  args: '--platform linux/amd64'
 branding:
   icon: 'box'
   color: 'gray-dark'
